@@ -1,0 +1,14 @@
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  @apply bg-primary;
+  left: 2.3rem;
+  top: 0;
+}
