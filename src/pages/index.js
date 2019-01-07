@@ -24,9 +24,9 @@ const IndexPage = () => (
         <p>Loves Python and JavaScript</p>
         <p>Open to projects and opportunities</p>
       </div>
-      <div className="leading-loose mt-8 text-lg">
+      <div className="leading-normal mt-8 text-lg">
         <p>
-          Feel free to drop an email on{" "}
+          Email{" "}
           <a
             href="mailto:ajit.singh2905@gmail.com"
             className="link link-permanent"
@@ -35,7 +35,6 @@ const IndexPage = () => (
           </a>
         </p>
         <p>
-          Find me at{" "}
           <a
             href="https://github.com/ajitid"
             className="link link-permanent"
@@ -44,7 +43,6 @@ const IndexPage = () => (
           >
             GitHub
           </a>{" "}
-          and{" "}
           <a
             href="https://twitter.com/ajitid"
             className="link link-permanent"
