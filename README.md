@@ -1,3 +1,4 @@
 # Ajit's personal site
 
-Any issue or suggestion? Post it in repo issues.
+Built with Gatsby.
+Feel free to post an issue or a suggestion in repo issues.
