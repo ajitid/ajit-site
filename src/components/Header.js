@@ -8,8 +8,8 @@ const Header = ({ siteTitle }) => (
     <div>{siteTitle}</div>
     <div>
       <nav>
-        <HeaderLink to="/projects">Projects</HeaderLink>
-        <HeaderLink to="/blog">Blog</HeaderLink>
+        <HeaderLink to="/projects/">Projects</HeaderLink>
+        <HeaderLink to="/blog/">Blog</HeaderLink>
         <HeaderLink to="/">About</HeaderLink>
       </nav>
     </div>

@@ -32,7 +32,7 @@ const createBlogPostPages = (createPage, graphql) => {
       const { slug } = node.frontmatter;
       const { id } = node;
       createPage({
-        path: `/blog/${slug}`,
+        path: `/blog/${slug}/`,
         component: blogPostTemplate,
         context: {
           id

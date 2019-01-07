@@ -17,7 +17,7 @@ const Blog = ({ data }) => {
             <div key={post.node.frontmatter.slug} className="mb-6 md:mb-4">
               <div className="text-xl font-serif">
                 <Link
-                  to={`/blog/${post.node.frontmatter.slug}`}
+                  to={`/blog/${post.node.frontmatter.slug}/`}
                   className="link link-on-hover"
                 >
                   {post.node.frontmatter.title}

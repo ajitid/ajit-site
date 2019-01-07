@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import SEO from "../components/Seo";
-import Link from "../components/Link";
 
 const Projects = ({ data }) => {
   const projects = data.allMarkdownRemark.edges;
