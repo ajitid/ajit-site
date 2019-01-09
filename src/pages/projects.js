@@ -19,7 +19,7 @@ const Projects = ({ data }) => {
               key={index}
               className="my-4 pl-4 w-full overflow-hidden md:my-6 md:pl-12 md:w-1/2"
             >
-              <div className="card border rounded w-full px-4 py-6">
+              <div className="card h-full border w-full px-4 py-6">
                 <p className="text-3xl font-serif mb-6">
                   {project.node.frontmatter.title}
                 </p>
