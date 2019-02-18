@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="About"
-      keywords={[`blog`, `portfolio`, `ajitid`, `github`, `Ajit Singh`]}
+      keywords={[`blog`, `portfolio`, `goandbuild`, `github`, `Ajit Singh`]}
     />
     <div>
       <h1
@@ -36,7 +36,7 @@ const IndexPage = () => (
         </p>
         <p>
           <a
-            href="https://github.com/ajitid"
+            href="https://github.com/goandbuild"
             className="link link-permanent"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const IndexPage = () => (
             GitHub
           </a>{" "}
           <a
-            href="https://twitter.com/ajitid"
+            href="https://twitter.com/goandbuild"
             className="link link-permanent"
             target="_blank"
             rel="noopener noreferrer"
