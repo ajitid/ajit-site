@@ -8,13 +8,11 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="About"
-      keywords={[`blog`, `portfolio`, `goandbuild`, `github`, `Ajit Singh`]}
+      keywords={[`blog`, `portfolio`, `ajitid`, `github`, `Ajit Singh`]}
     />
     <div>
       <h1
-        className={`${
-          css.hero
-        } text-5xl inline-block py-2 my-8 tracking-tight font-serif`}
+        className={`${css.hero} text-5xl inline-block py-2 my-8 tracking-tight font-serif`}
       >
         Ajit Singh
       </h1>
@@ -36,7 +34,7 @@ const IndexPage = () => (
         </p>
         <p>
           <a
-            href="https://github.com/goandbuild"
+            href="https://github.com/ajitid"
             className="link link-permanent"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +42,7 @@ const IndexPage = () => (
             GitHub
           </a>{" "}
           <a
-            href="https://twitter.com/goandbuild"
+            href="https://twitter.com/ajitid"
             className="link link-permanent"
             target="_blank"
             rel="noopener noreferrer"
